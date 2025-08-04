@@ -1,14 +1,14 @@
 {
   "expo": {
-    "name": "energie2",
-    "slug": "energie2",
+    "name": "Universal Pass Energy",
+    "slug": "energie",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
-      "image": "./assets/splash-icon.png",
+      "image": "./assets/512PX3.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -17,13 +17,20 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/512PX3.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.universal.upe"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "owner": "serviteur01",
+    "extra": {
+      "eas": {
+        "projectId": "66c03e5b-4b5b-4042-a122-38e50b7f7ab4"
+      }
     }
   }
 }
